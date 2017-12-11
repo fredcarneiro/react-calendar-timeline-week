@@ -1,7 +1,7 @@
 {
-  "name": "react-calendar-timeline",
+  "name": "react-calendar-timeline-week",
   "version": "0.15.1",
-  "description": "react calendar timeline",
+  "description": "react calendar timeline with week support",
   "main": "lib/index.js",
   "module": "src/index.js",
   "scripts": {
