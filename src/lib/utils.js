@@ -38,6 +38,7 @@ export function getMinUnit (zoom, width, timeSteps) {
     minute: 60,
     hour: 60,
     day: 24,
+    week: 7,
     month: 30,
     year: 12
   }
@@ -65,7 +66,8 @@ export function getNextUnit (unit) {
     second: 'minute',
     minute: 'hour',
     hour: 'day',
-    day: 'month',
+    day: 'week',
+    week: 'month',
     month: 'year'
   }
 
